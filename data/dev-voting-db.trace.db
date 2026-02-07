@@ -1,0 +1,18 @@
+2026-02-04 08:42:59.315641+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CANDIDATES ROLES [*]USERS"; SQL statement:
+SELECT * FROM CANDIDATES ROLES USERS [42000-240]
+2026-02-04 08:43:05.566256+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CANDIDATES ROLES [*]USERS VOTES"; SQL statement:
+SELECT * FROM CANDIDATES ROLES USERS VOTES [42000-240]
+2026-02-04 09:21:33.054093+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CANDIDATE" not found; SQL statement:
+INSERT INTO candidate (id, name, party_name, vote_count) 
+VALUES (1, 'Pawan Kalyan', 'JSP', 0) [42102-240]
+2026-02-04 09:22:36.436424+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CANDIDATE" not found; SQL statement:
+INSERT INTO candidate (id, name, party_name, vote_count) 
+VALUES (1, 'Pawan Kalyan', 'JSP', 0) [42102-240]
+2026-02-04 09:22:45.740364+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CANDIDATE" not found; SQL statement:
+INSERT INTO candidate (id, name, party_name, vote_count) 
+VALUES (1, 'Pawan Kalyan', 'JSP', 0) [42102-240]
